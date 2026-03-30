@@ -10,7 +10,7 @@ using Ephemera.NBagOfTricks;
 // Based on https://github.com/MrM40/W-WinClipboard
 
 
-namespace WinConsole
+namespace Ephemera.WinConsole
 {
     public static class Clipboard
     {

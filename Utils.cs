@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using Ephemera.NBagOfTricks;
 
 
-namespace WinConsole
+namespace Ephemera.WinConsole
 {
     public static class Utils
     {

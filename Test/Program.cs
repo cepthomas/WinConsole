@@ -6,7 +6,7 @@ using System.Threading;
 using System.Windows.Forms;
 
 
-namespace WinConsole.Test
+namespace Ephemera.WinConsole.Test
 {
     static class Program
     {

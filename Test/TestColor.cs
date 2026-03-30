@@ -5,9 +5,10 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using Ephemera.NBagOfTricks;
+using Ephemera.sWinConsole;
 
 
-namespace WinConsole.Test
+namespace Ephemera.WinConsole.Test
 {
     public class TestColor
     {

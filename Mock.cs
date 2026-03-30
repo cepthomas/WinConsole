@@ -5,7 +5,7 @@ using System.Text;
 using Ephemera.NBagOfTricks;
 
 
-namespace WinConsole
+namespace Ephemera.WinConsole
 {
     /// <summary>
     /// Interface for consoles. Subset of System.Console.

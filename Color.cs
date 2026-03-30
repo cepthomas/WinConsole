@@ -7,7 +7,7 @@ using System.Linq;
 using Ephemera.NBagOfTricks;
 
 
-namespace WinConsole
+namespace Ephemera.WinConsole
 {
     public static class ColorCons
     {
