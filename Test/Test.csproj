@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFrameworks>net8.0-windows</TargetFrameworks>
+        <OutputType>Exe</OutputType>
+        <UseWindowsForms>true</UseWindowsForms>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Description>WinConsole tester</Description>
+        <Copyright>MIT License</Copyright>
+        <RootNamespace>Ephemera.WinConsole.Test</RootNamespace>
+        <AssemblyName>Ephemera.WinConsole.Test</AssemblyName>
+        <OutputPath>bin\</OutputPath>
+        <!-- <DefineConstants>DEBUG;TRACE</DefineConstants> -->
+        <WarningLevel>4</WarningLevel>
+        <NoWarn>CS1591;CS0162</NoWarn> 
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+        <Nullable>enable</Nullable>
+        <SatelliteResourceLanguages>none</SatelliteResourceLanguages> <!-- en none -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\WinConsole.csproj" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <Reference Include="Ephemera.NBagOfTricks">
+        <HintPath>..\lib\Ephemera.NBagOfTricks.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
