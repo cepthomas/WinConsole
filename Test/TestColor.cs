@@ -5,7 +5,7 @@ using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
 using Ephemera.NBagOfTricks;
-using Ephemera.sWinConsole;
+using Ephemera.WinConsole;
 
 
 namespace Ephemera.WinConsole.Test

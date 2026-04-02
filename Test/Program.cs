@@ -11,7 +11,7 @@ namespace Ephemera.WinConsole.Test
     static class Program
     {
         /// <summary>
-        /// The main entry point for the testapplication.
+        /// The main entry point for the test application. TODO needs more tests.
         /// </summary>
         [STAThread]
         static void Main(string[] _)
